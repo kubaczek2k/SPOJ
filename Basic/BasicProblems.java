@@ -22,6 +22,8 @@ public class BasicProblems {
                 break;
             }
         }
+
+        in.close();
     }
 
     private void adding(){
@@ -42,5 +44,27 @@ public class BasicProblems {
         }
 
         System.out.println(sum);
-    }    
+
+        string.close();
+    }
+
+    private void halfOfHalf(){
+        // Problem link:
+        // https://www.spoj.com/problems/STRHH/
+
+        int testCases = 0;
+        int maxCasesNumber = 100;
+
+        Scanner string = new Scanner(System.in);
+
+        testCases = Integer.parseInt(string.nextLine());
+
+        if(testCases <= maxCasesNumber){
+            for(int i=0; i < testCases; i++){
+
+            }
+        }
+
+        string.close();
+    }
 }
